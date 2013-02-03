@@ -9,22 +9,28 @@ body {
 }    
          
 .navbar-inner {
-	background-image: url('../img/nav-background.png');
+	height: 50px;
 
 }
 
 .navbar .brand {
 	color: #ff9331;
+	font-size: 32px;
 	text-shadow: 0 0px 0 white; /* overwrites bootstrap's default text shadow on brand class */
+	padding: 15px 20px 10px;
+
+}
+
+.navbar .nav {
+	float: right;
 
 }
 
 .navbar .nav > li > a {
-	padding: 12px 15px 8px;
-
 	text-shadow: 0 0px 0 black; /* overwrite for bootsrap default text-shadow */
 	color: #ababab;
-	background-color: none;
+	font-size: 20px;
+	padding: 15px 15px 10px;
 
 }	
 
@@ -33,6 +39,24 @@ body {
 	-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0); /* overwrites bootstraps defualt nav box shadows */
 	-moz-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0); /* box shadow overwrite for firefox */
 	background-color: transparent;
+
+}
+
+.navbar .nav > .active > a:hover {
+	background-color: transparent;
+	color: black;
+	-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0); /* overwrites bootstraps defualt nav box shadows */
+	-moz-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0); /* box shadow overwrite for firefox */
+
+}
+
+#contact {
+	color: #ff9331;
+
+}
+
+#contact:hover {	
+	color: black;
 
 }
       
