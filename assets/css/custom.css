@@ -1,16 +1,40 @@
 body { 
 	padding-top: 60px; /* 60px to make the container go all the way to the bottom of the topbar */ 
+	font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
 
 }
 
 #content {
-    margin-top: -17px;    
+   /* margin-top: -15px;  */  
 }    
          
-/* .nav {
-    float: right;    
-          
-}  */
+.navbar-inner {
+	background-image: url('../img/nav-background.png');
+
+}
+
+.navbar .brand {
+	color: #ff9331;
+	text-shadow: 0 0px 0 white; /* overwrites bootstrap's default text shadow on brand class */
+
+}
+
+.navbar .nav > li > a {
+	padding: 12px 15px 8px;
+
+	text-shadow: 0 0px 0 black; /* overwrite for bootsrap default text-shadow */
+	color: #ababab;
+	background-color: none;
+
+}	
+
+.navbar .nav > .active > a {
+	color: black;
+	-webkit-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0); /* overwrites bootstraps defualt nav box shadows */
+	-moz-box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0); /* box shadow overwrite for firefox */
+	background-color: transparent;
+
+}
       
 .panel {
           
