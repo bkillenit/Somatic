@@ -4,12 +4,17 @@ body {
 
 }
 
-#content {
-   /* margin-top: -15px;  */  
-}    
+#logo-icon {
+	position: relative;
+	left: 3px;
+	top: -3px;
+
+}
          
 .navbar-inner {
-	height: 50px;
+	height: 55px;
+	background-color: white;
+	background-image: none; /* overwrites bootstraps background image nav defualt */
 
 }
 
@@ -17,7 +22,7 @@ body {
 	color: #ff9331;
 	font-size: 32px;
 	text-shadow: 0 0px 0 white; /* overwrites bootstrap's default text shadow on brand class */
-	padding: 15px 20px 10px;
+	padding: 20px 20px 10px;
 
 }
 
@@ -30,7 +35,7 @@ body {
 	text-shadow: 0 0px 0 black; /* overwrite for bootsrap default text-shadow */
 	color: #ababab;
 	font-size: 20px;
-	padding: 15px 15px 10px;
+	padding: 20px 15px 10px;
 
 }	
 
@@ -50,8 +55,25 @@ body {
 
 }
 
+#main-content {
+	position: relative;
+	height: 500px;
+	top: 5px;
+	padding: 15px 0px 10px 0px;	
+	background-color: #f7f7f7;
+
+}
+
+#content {  
+   text-align: center;
+   font-size: 17px;
+   font-weight: bold;
+
+}  
+
 #contact {
 	color: #ff9331;
+	padding-right: 0px; 
 
 }
 
@@ -62,4 +84,14 @@ body {
       
 .panel {
           
+}
+
+#left-footer {
+	float: left;
+
+}
+
+#right-footer {
+	float: right;
+
 }
