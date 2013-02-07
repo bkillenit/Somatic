@@ -59,7 +59,7 @@ body {
 	position: relative;
 	height: 500px;
 	margin-top: 15px;	
-	background-color: #f7f7f7;
+	background-image: url('../img/office-bg-v2.png');
 
 }
 
@@ -71,18 +71,15 @@ body {
 
 #main-content #content {  
    	
-   	position: absolute;
-   	top: 145px;	
-   	padding: 0px 40px;
-   	
-   	z-index: 100;
-
 }  
 
 #main-content #content h1 {
 	font-size: 50px; 
 	color: black;
 	text-align: left;
+	position: relative;
+	top: 155px;
+	left: 15px;
 
 }
 
@@ -92,10 +89,12 @@ body {
 }
 
 #learn-more {
-	z-index: 100;
-	position: absolute;
-	top: 175px;
-	left: 940px;
+	position: relative;
+	top: 180px;
+	left: -15px;
+	width: 165px;
+	float: right;
+
 	font-size: 30px;
 	padding: 18px 18px;
 	background-color: #63B8FF;
